@@ -1,126 +1,92 @@
-
-element.style {
-}
-@media (min-width: 768px)
-.navigation.navbar-sticky {
-    background-color: #fff;
-    top: 0;
-}
-@media (min-width: 768px)
-.navigation.fixed-top {
-    background-color: transparent;
+body{
+	background-color: #EEE;
 }
 
-.navigation.navbar-sticky {
-    position: fixed!important;
-    background-color: #fff;
-    left: 0;
-    top: 0;
-    right: 0;
-    border-bottom: 1px solid rgba(0,0,0,.11);
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.11);
-    box-shadow: 0 0 5px rgba(0,0,0,.11);
-    min-height: 90px;
-    z-index: 1030;
-    -webkit-transition: all .6s ease-in-out;
-    transition: all .6s ease-in-out;
+#container {
+	background-color: white;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
-@media (min-width: 768px)
-.navigation {
-    background-color: #fff;
-    padding: 0;
+
+#content {
+	padding: 10px;
+	
 }
-.navigation {
-    background-color: #fff;
-    min-height: 90px;
-    -webkit-transition: all .3s ease 0s;
-    transition: all .3s ease 0s;
+
+#right {
+	padding: 50px;
 }
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+
+#left {
+	padding: 50px;
 }
-.navbar {
+
+
+#footer {
+	font: 14.4px, 
+	font-family: 'Lato' sans-serif
+	clear: both;
+	text-align: center;
+}
+
+.site-footer {
+    font-size: .9em;
+}
+
+.section, section {
     position: relative;
-    display: -ms-flexbox;
+}
+
+.bg-5 {
+    background-color: #181c1f;
+}
+
+.color-smoke {
+    color: #8e9ab0;
+}
+
+.section [class^=container], section [class^=container] {
+    position: relative;
+}
+.section [class^=container], section [class^=container] {
+    padding-top: 90px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.row {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 1rem;
+    margin-right: -15px;
+    margin-left: -15px;
 }
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
+
+.row>.col, .row>[class*=col-] {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-*, ::after, ::before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-user agent stylesheet
-nav {
-    display: block;
-}
-body {
-    font-family: 'Lato', sans-serif !important;
-}
-body {
-    font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #3b4455;
-    background-color: #fff;
-    text-rendering: optimizeLegibility!important;
-    -webkit-font-smoothing: antialiased!important;
-}
-body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-}
-html {
-    font-size: 62.5%;
-}
-html {
-    box-sizing: border-box;
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
-    -webkit-tap-highlight-color: transparent;
-}
-user agent stylesheet
-html {
-    color: -internal-root-color;
-}
-*, ::after, ::before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-*, ::after, ::before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-::selection {
-    background: 0 0;
-    text-shadow: none;
+
+@media (min-width: 768px)
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.6667%;
+    max-width: 41.666667%;
 }
