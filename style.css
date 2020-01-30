@@ -1,0 +1,88 @@
+body{
+	background-color: #EEE;
+}
+
+#container {
+	background-color: white;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	padding: 10px;
+	
+}
+
+#main {
+	padding: 50px;
+}
+
+
+#footer {
+	font: 14.4px, 
+	font-family: 'Lato' sans-serif
+	clear: both;
+	text-align: center;
+}
+
+.site-footer {
+    font-size: .9em;
+}
+
+.section, section {
+    position: relative;
+}
+
+.bg-5 {
+    background-color: #181c1f;
+}
+
+.color-smoke {
+    color: #8e9ab0;
+}
+
+.section [class^=container], section [class^=container] {
+    position: relative;
+}
+.section [class^=container], section [class^=container] {
+    padding-top: 90px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>.col, .row>[class*=col-] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px)
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.6667%;
+    max-width: 41.666667%;
+}
