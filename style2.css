@@ -25,13 +25,20 @@ body{
 .left-border {
 	margin-left: auto;
 	background-color: #ededed;
+	background: linear-gradient(#ededed, white);
 	padding: 50px;
+	box-shadow: 3px 3px grey;
+	border-radius: 3px 10px 6px 1px;
 }
 
 .right-border {
 	margin-right: auto;
 	background-color: #ededed;
+	background: linear-gradient(#ededed, white);
 	padding: 50px;
+	box-shadow: 3px 3px grey;
+	border-radius: 3px 10px 6px 1px;
+	
 }
 
 
@@ -101,4 +108,19 @@ body{
     flex-shrink: 0;
     flex-basis: 41.6667%;
     max-width: 41.666667%;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.btn:not(.btn-lg):not(.btn-sm) {
+    font-size: 11px;
+}
+
+.btn-outline-2 {
+    color: #4e5a70;
+    background-color: transparent;
+    background-image: none;
+    border-color: #4e5a70;
 }
