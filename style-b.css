@@ -7,7 +7,6 @@
 }
 
 .row {
-	width: 100%;
 	margin: auto;
 
 }
@@ -27,6 +26,9 @@
 	height: 100px;
 	text-align: center;
 	padding: 37px;
+	background: linear-gradient(#ededed, white);
+	box-shadow: 3px 3px grey;
+	border-radius: 2px 2px 2px 2px;
 	
 }
 
@@ -36,4 +38,9 @@
 	text-align: center;
 	line-height: 40px;
 	padding: 33px;
+	background: linear-gradient(#ededed, white);
+	box-shadow: 3px 3px grey;
+	border-radius: 2px 2px 2px 2px;
 }
+
+	
