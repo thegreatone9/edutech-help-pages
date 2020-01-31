@@ -1,0 +1,39 @@
+#content {
+	margin: 20px;
+}
+
+.my-container {
+
+}
+
+.row {
+	width: 100%;
+	margin: auto;
+
+}
+
+.row-h {
+	height: 150px;
+
+}
+
+.my-row {
+	height: 150px;
+
+}
+
+.my-col {
+	border: 2px solid gray;
+	height: 100px;
+	text-align: center;
+	padding: 37px;
+	
+}
+
+.my-col-s {
+	border: 2px solid gray;
+	height: 100px;
+	text-align: center;
+	line-height: 40px;
+	padding: 33px;
+}
