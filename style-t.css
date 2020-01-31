@@ -1,0 +1,122 @@
+body {
+	
+}
+
+#container {
+	width: 100%;
+}
+
+#content {
+	margin: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexbox-item {
+	width: 200px;
+	height: 70px;
+	margin: 10px;
+	border: 3px solid gray;
+	background-color: light-gray;
+}
+
+.flexbox-item-1 {
+	
+}
+
+.flexbox-item-2 {		
+	
+}
+
+.flexbox-item-3 {
+		
+}
+
+
+
+
+
+
+#footer {
+	font: 14.4px, 
+	font-family: 'Lato' sans-serif
+	clear: both;
+	text-align: center;
+}
+
+.site-footer {
+    font-size: .9em;
+}
+
+.section, section {
+    position: relative;
+}
+
+.bg-5 {
+    background-color: #181c1f;
+}
+
+.color-smoke {
+    color: #8e9ab0;
+}
+
+.section [class^=container], section [class^=container] {
+    position: relative;
+}
+.section [class^=container], section [class^=container] {
+    padding-top: 90px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>.col, .row>[class*=col-] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px)
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.6667%;
+    max-width: 41.666667%;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.btn:not(.btn-lg):not(.btn-sm) {
+    font-size: 11px;
+}
+
+.btn-outline-2 {
+    color: #4e5a70;
+    background-color: transparent;
+    background-image: none;
+    border-color: #4e5a70;
+} 
